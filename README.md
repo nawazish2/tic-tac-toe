@@ -1,16 +1,60 @@
-# React + Vite
+# 🎮 Tic Tac Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and interactive Tic Tac Toe game built using React that allows two players to play against each other on a 3×3 board. The project focuses on component structure, state management, game logic, and creating a smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📖 Project Overview
 
-## React Compiler
+This project was built as part of **Web Dev Cohort 2026**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The game follows traditional Tic Tac Toe rules where two players alternate turns placing **X** and **O** on a 3×3 grid. The application automatically detects winners, handles draw situations, and allows the game to be restarted.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- Interactive 3×3 game board
+- Two-player turn system
+- Automatic winner detection
+- Draw detection
+- Reset game functionality
+- Current turn display
+- Winner announcement
+- Responsive and clean UI
+- Smooth user interaction
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Typescript
+- CSS / Tailwind CSS
+- Vite
+
+---
+
+## 🎮 Game Rules
+
+1. Player **X** starts the game.
+2. Players alternate turns placing symbols on the board.
+3. A player wins by getting three symbols in a row:
+   - Horizontally
+   - Vertically
+   - Diagonally
+4. If all cells are filled and nobody wins, the game ends in a draw.
+5. Click the **Reset Game** button to play again.
+
+---
+
+## 🧠 Concepts Used
+
+- React Functional Components
+- useState Hook
+- Props
+- Event Handling
+- Conditional Rendering
+- Array Methods
+- Game Logic Implementation
+- Responsive Design
